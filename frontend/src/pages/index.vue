@@ -1,16 +1,13 @@
 <script setup>
 import BaseLayout from '@layouts/BaseLayout.vue'
-import { useCounter } from '@stores/CounterStore.mjs'
-
-const counter = useCounter()
+import BaseTable from '@components/BaseTable.vue';
+import { usePirateStore } from '@stores/usePirateStore';
 </script>
 
 <template>
   <BaseLayout>
-    <h1 class="text-6xl my-10">Hello!</h1>
-    <button class="bg-blue-500 text-white rounded py-2 px-4" @click="counter.increment()">
-      Számláló: {{ counter.counter }}
-    </button>
+    <RouterLink to="/pirates/create" class="w-fit block p-2 my-3 rounded-md text-white bg-gray-600 hover:bg-gray-800">Új Kalóz</RouterLink>
+    <BaseTable :pirates="usePirateStore().pirates"/>
   </BaseLayout>
 </template>
 
