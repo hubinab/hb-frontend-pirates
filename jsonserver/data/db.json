@@ -1,0 +1,112 @@
+{
+  "ships": [
+    { "id": "1", "name": "Galleon" },
+    { "id": "2", "name": "Frigate" },
+    { "id": "3", "name": "Sloop" },
+    { "id": "4", "name": "Brigantine" },
+    { "id": "5", "name": "Man-of-war" },
+    { "id": "6", "name": "Schooner" }
+  ],
+  "pirates": [
+    {
+      "id": "101",
+      "name": "Blackbeard",
+      "ship_id": "2",
+      "bounty": 10000,
+      "weapon": "Cutlass",
+      "age": 45,
+      "status": "Active",
+      "description": "Félelmetes kalóz, aki égő kanócokat hord a szakállában."
+    },
+    {
+      "id": "102",
+      "name": "Anne Bonny",
+      "ship_id": "3",
+      "bounty": 4500,
+      "weapon": "Flintlock Pistol",
+      "age": 28,
+      "status": "Captured",
+      "description": "Vakmerő és könyörtelen női kalóz a Karib-tengeren."
+    },
+    {
+      "id": "103",
+      "name": "Captain Kidd",
+      "ship_id": "1",
+      "bounty": 8000,
+      "weapon": "Rapier",
+      "age": 56,
+      "status": "Deceased",
+      "description": "Skót tengerész, akit igazságtalanul vádoltak meg kalózkodással... vagy mégsem?"
+    },
+    {
+      "id": "104",
+      "name": "Bartholomew Roberts",
+      "ship_id": "5",
+      "bounty": 15000,
+      "weapon": "Musket",
+      "age": 40,
+      "status": "Deceased",
+      "description": "A 'Fekete Bart' néven ismert, minden idők egyik legsikeresebb kalóza."
+    },
+    {
+      "id": "105",
+      "name": "Mary Read",
+      "ship_id": "3",
+      "bounty": 4000,
+      "weapon": "Machete",
+      "age": 35,
+      "status": "Captured",
+      "description": "Férfiruhába öltözve harcolt, Anne Bonny közeli fegyvertársa."
+    },
+    {
+      "id": "106",
+      "name": "Charles Vane",
+      "ship_id": "4",
+      "bounty": 6500,
+      "weapon": "Cutlass",
+      "age": 41,
+      "status": "Active",
+      "description": "Kiszámíthatatlan és kegyetlen kapitány, aki sosem fogadott el kegyelmet."
+    },
+    {
+      "id": "107",
+      "name": "Calico Jack",
+      "ship_id": "3",
+      "bounty": 5500,
+      "weapon": "Flintlock Pistol",
+      "age": 38,
+      "status": "Captured",
+      "description": "A híres koponya és keresztbe tett kardok zászló megalkotója."
+    },
+    {
+      "id": "108",
+      "name": "Henry Morgan",
+      "ship_id": "1",
+      "bounty": 12000,
+      "weapon": "Rapier",
+      "age": 53,
+      "status": "Retired",
+      "description": "Később kormányzó lett Jamaicában, miután hivatalos kegyelmet kapott."
+    },
+    {
+      "id": "109",
+      "name": "Stede Bonnet",
+      "ship_id": "6",
+      "bounty": 3000,
+      "weapon": "Sword",
+      "age": 30,
+      "status": "Deceased",
+      "description": "A 'nemes kalóz', aki gazdag földbirtokosként unalmában állt kalóznak."
+    },
+    {
+      "id": "110",
+      "name": "Edward England",
+      "ship_id": "2",
+      "bounty": 7000,
+      "weapon": "Boarding Axe",
+      "age": 35,
+      "status": "Active",
+      "description": "A klasszikus Jolly Roger (koponya két lábszárcsonttal) zászló használója."
+    }
+  ]
+}

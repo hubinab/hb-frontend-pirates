@@ -1,0 +1,16 @@
+{
+    "timestamps": false,
+    "relationships":[
+        {
+            "source": "ships",
+            "destination": "pirates",
+            "type": "hasMany"
+        },
+        {
+            "source": "pirates",
+            "destination": "ships",
+            "type": "belongsTo"
+        }
+        
+    ]
+}
